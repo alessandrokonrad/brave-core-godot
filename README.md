@@ -18,17 +18,17 @@ Read more about it [here](https://github.com/brave/brave-browser/wiki/Patching-C
 
 ### Files I modified
 
-brave-browser/src/content/public/browser/url_data_source.cc (patched with: ./patches/content-public-browser-url_data_source.cc.patch)
-./components/webpack/webpack.config.js
+brave-browser/src/content/public/browser/url_data_source.cc (patched with: ./patches/content-public-browser-url_data_source.cc.patch)  
+./components/webpack/webpack.config.js  
 ./components/brave_new_tab_ui/brave_new_tab.tsx
 
 ### New Files I added
 
-./components/game-godot/game.tsx
-./components/game-godot/index.js
-./components/game-godot/engine.js
-./components/game-godot/index.pck
-./components/game-godot/index.wasm
+./components/game-godot/game.tsx  
+./components/game-godot/index.js  
+./components/game-godot/engine.js  
+./components/game-godot/index.pck  
+./components/game-godot/index.wasm  
 ./components/game-godot/index.css
 
 ### What to do
