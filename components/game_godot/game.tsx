@@ -18,7 +18,7 @@ const Game = () => {
   React.useEffect(() => {
     /* order of script appending is important */
     appendScript("index.js");
-    appendScript("engine.js");
+    //appendScript("engine.js");
   });
 
   return (
