@@ -12,7 +12,7 @@ announcements.
 ### Explanation
 
 This is just a fork of the brave-core repository. To run a full development environment please refer to [Brave Wiki](https://github.com/brave/brave-browser/wiki).
-Before you call `npm run init` go to `src` and add this fork under the folder `src/brave`. Then continue with the build instructions.
+Before you call `npm run init` go to `src` (if not there just create a folder) and add this fork under the folder `src/brave`. Then continue with the build instructions.
 All file changes are made in this fork in order to implement the godot scene, even if it's necessary to edit the chromium source.
 Read more about it [here](https://github.com/brave/brave-browser/wiki/Patching-Chromium)
 
@@ -25,8 +25,7 @@ brave-browser/src/content/public/browser/url_data_source.cc (patched with: ./pat
 ### New Files I added
 
 ./components/game-godot/game.tsx  
-./components/game-godot/index.js  
-./components/game-godot/engine.js  
+./components/game-godot/index.js
 ./components/game-godot/index.pck  
 ./components/game-godot/index.wasm  
 ./components/game-godot/index.css
