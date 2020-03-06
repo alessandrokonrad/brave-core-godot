@@ -2,7 +2,6 @@ import * as React from "react";
 
 /* Godot WebGL files, loaded as resources in brave */
 require("./index.pck");
-require("./engine.js");
 require("./index.js");
 require("./index.wasm");
 require("./index.css");
